@@ -401,7 +401,7 @@ def run_test_polygon():
     # Test 3:  (YOU write THIS test)
     # ------------------------------------------------------------------
 
-    title = 'POLYGON test 3: .'
+    title = 'POLYGON test 3: 4 segments,black lines on lime green circle.'
     window = rg.RoseWindow(550, 400, title)
 
     circle = rg.Circle(rg.Point(200, 200), 100)
