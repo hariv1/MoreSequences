@@ -357,6 +357,8 @@ def pizza(window, circle, number_of_slices, color, thickness):
 
     for k in range(len(list_points)):
         line = rg.Line(circle.center, list_points[k])
+        line.color = color
+        line.thickness = thickness
         line.attach_to(window)
 
     window.render()
