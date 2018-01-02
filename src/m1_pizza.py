@@ -192,7 +192,7 @@ def run_test_draw_points_on_circle():
     # Test 4:
     title = 'DRAW_POINTS_ON_CIRCLE, test 4:  4 red dots.'
     window = rg.RoseWindow(400, 400, title)
-    circle = rg.Circle(rg.Point(200, 200), 10)
+    circle = rg.Circle(rg.Point(200, 200), 60)
     draw_points_on_circle(window, circle, 4, 'red')
     window.close_on_mouse_click()
 
@@ -232,7 +232,7 @@ def draw_points_on_circle(window, circle, number_of_points, color):
       :type color:            str
     """
     # ------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # DONE: 4. Implement and test this function.
     #   Note that you should write its TEST function first (above).
     #
     # IMPLEMENTATION REQUIREMENT:
